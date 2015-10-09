@@ -117,12 +117,7 @@
                                         <h5>Analytics</h5>
                                     </a>
                                 </td>
-                                <td>
-                                    <a href="file_manager.php">
-                                        <i class="pe pe-7s-box1 text-success"></i>
-                                        <h5>Files</h5>
-                                    </a>
-                                </td>
+
                             </tr>
                             </tbody>
                         </table>
@@ -176,152 +171,160 @@
 </div>
 
 <!-- Navigation -->
-<aside id="menu">
-    <div id="navigation">
-        <div class="profile-picture">
-            <a href="index.php">
-                <img src="images/profile.jpg" class="img-circle m-b" alt="logo">
-            </a>
-
-            <div class="stats-label text-color">
-                <span class="font-extra-bold font-uppercase"><- USERNAME -></span>
-
-                <div class="dropdown">
-                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-                        <small class="text-muted">Account Profile <b class="caret"></b></small>
+        <aside id="menu">
+            <div id="navigation">
+                <div class="profile-picture">
+                    <a href="index.php">
+                        <img src="images/profile.jpg" class="img-circle m-b" alt="logo">
                     </a>
-                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                        <li><a href="contacts.php">Contact Details</a></li>
-                        <li><a href="profile.php">Your Profile</a></li>
-                        <li class="divider"></li>
-                        <li><a href="login.php">Logout</a></li>
-                    </ul>
+                    <div class="stats-label text-color">
+                        <span class="font-extra-bold font-uppercase"><- USERNAME -></span>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                                <small class="text-muted">Account Profile <b class="caret"></b></small>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="contacts.php">Contact Details</a></li>
+                                <li><a href="profile.php">Your Profile</a></li>
+                                <li class="divider"></li>
+                                <li><a href="login.php">Logout</a></li>
+                            </ul>
+                        </div>
+                        <div id="sparkline1" class="small-chart m-t-sm"></div>
+                        <div>
+                            <h4 class="font-extra-bold m-b-xs">
+                            $260/month
+                            </h4>
+                            <small class="text-muted">Savings you have made since using this site.</small>
+                        </div>
+                    </div>
                 </div>
-
-
-                <div id="sparkline1" class="small-chart m-t-sm"></div>
-                <div>
-                    <h4 class="font-extra-bold m-b-xs">
-                        $260 104,200
-                    </h4>
-                    <small class="text-muted">Your income from the last year in sales product X.</small>
-                </div>
+                <ul class="nav" id="side-menu">
+                    <li class="active">
+                        <a href="index.php"> <span class="nav-label">Dashboard</span> <span class="label label-success pull-right">v.1</span> </a>
+                    </li>
+                           <li>
+                        <a href="profile.php"> <span class="nav-label">Your Profile</span></a>
+                    </li>
+                    <li>
+                        <a href="deals.php"> <span class="nav-label">Offer Browser</span></a>
+                    </li>
+                    <li>
+                        <a href="analytics.php"> <span class="nav-label">Analytics</span><span class="label label-warning pull-right">NEW</span> </a>
+                    </li>
+                    <li>
+                        <a href="mailbox.php"> <span class="nav-label">Communications</span></a>
+                    </li>
+                    <li>
+                        <a href="forum.php"> <span class="nav-label">Help</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="nav-label">Interface</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="panels.php">Panels design</a></li>
+                            <li><a href="typography.php">Typography</a></li>
+                            <li><a href="buttons.php">Colors &amp; Buttons</a></li>
+                            <li><a href="components.php">Components</a></li>
+                            <li><a href="alerts.php">Alerts</a></li>
+                            <li><a href="modals.php">Modals</a></li>
+                            <li><a href="draggable.php">Draggable panels</a></li>
+                            <li><a href="nestable_list.php">List</a></li>
+                            <li><a href="tour.php">Tour</a></li>
+                            <li><a href="icons.php">Icons library</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><span class="nav-label">App views</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="contacts.php">Contacts</a></li>
+                            <li><a href="projects.php">Projects</a></li>
+                            <li><a href="project.php">Project detail</a></li>
+                            <li><a href="social_board.php">Social board</a></li>
+                            <li><a href="timeline.php">Timeline</a></li>
+                            <li><a href="profile.php">Profile</a></li>
+                            <li><a href="mailbox.php">Mailbox</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="blog_details.php">Blog article</a></li>
+                            <li><a href="forum.php">Forum</a></li>
+                            <li><a href="forum_details.php">Forum details</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
+                            <li><a href="calendar.php">Calendar</a></li>
+                            <li><a href="invoice.php">Invoice</a></li>
+                            <li><a href="file_manager.php">File manager</a></li>
+                            <li><a href="chat_view.php">Chat view</a></li>
+                            <li><a href="search.php">Search view</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><span class="nav-label">Charts</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="chartjs.php">ChartJs</a></li>
+                            <li><a href="flot.php">Flot charts</a></li>
+                            <li><a href="inline.php">Inline graphs</a></li>
+                        </ul>
+                    </li>
+                    <!--
+                    <li>
+                        <a href="#"><span class="nav-label">Box transitions</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="overview.php"><span class="label label-success pull-right">Start</span> Overview </a>  </li>
+                            <li><a href="transition_two.php">Columns from up</a></li>
+                            <li><a href="transition_one.php">Columns custom</a></li>
+                            <li><a href="transition_three.php">Panels zoom</a></li>
+                            <li><a href="transition_four.php">Rows from down</a></li>
+                            <li><a href="transition_five.php">Rows from right</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><span class="nav-label">Common views</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="login.php">Login</a></li>
+                            <li><a href="register.php">Register</a></li>
+                            <li><a href="error_one.php">Error 404</a></li>
+                            <li><a href="error_two.php">Error 505</a></li>
+                            <li><a href="lock.php">Lock screen</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><span class="nav-label">Tables</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="tables_design.php">Tables design</a></li>
+                            <li><a href="datatables.php">Data tables</a></li>
+                            <li><a href="footable.php">Foo Table</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="widgets.php"> <span class="nav-label">Widgets</span> <span class="label label-success pull-right">Special</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="nav-label">Forms</span><span class="fa arrow"></span> </a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="forms_elements.php">Forms elements</a></li>
+                            <li><a href="forms_extended.php">Forms extended</a></li>
+                            <li><a href="text_editor.php">Text editor</a></li>
+                            <li><a href="wizard.php">Wizard</a></li>
+                            <li><a href="validation.php">Validation</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="options.php"> <span class="nav-label">Layout options</span></a>
+                    </li>
+                    <li>
+                        <a href="grid_system.php"> <span class="nav-label">Grid system</span></a>
+                    </li>
+                    <li>
+                        <a href="landing_page.php"> <span class="nav-label">Landing page</span></a>
+                    </li>
+                    <li>
+                        <a href="angular/index.php"> <span class="nav-label">AngularJS version</span></a>
+                    </li>
+                    <li>
+                        <a href="http://104.236.248.183/dashboard"> <span class="nav-label">Meteor version</span></a>
+                    </li>
+                    -->
+                </ul>
             </div>
-        </div>
-
-        <ul class="nav" id="side-menu">
-            <li>
-                <a href="index.php"> <span class="nav-label">Dashboard</span> <span class="label label-success pull-right">v.1</span> </a>
-            </li>
-            <li>
-                <a href="analytics.php"> <span class="nav-label">Analytics</span><span class="label label-warning pull-right">NEW</span> </a>
-            </li>
-            <li>
-                <a href="#"><span class="nav-label">Interface</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li><a href="panels.php">Panels design</a></li>
-                    <li><a href="typography.php">Typography</a></li>
-                    <li><a href="buttons.php">Colors &amp; Buttons</a></li>
-                    <li><a href="components.php">Components</a></li>
-                    <li><a href="alerts.php">Alerts</a></li>
-                    <li><a href="modals.php">Modals</a></li>
-                    <li><a href="draggable.php">Draggable panels</a></li>
-                    <li><a href="nestable_list.php">List</a></li>
-                    <li><a href="tour.php">Tour</a></li>
-                    <li><a href="icons.php">Icons library</a></li>
-                </ul>
-            </li>
-            <li class="active">
-                <a href="#"><span class="nav-label">App views</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li class="active"><a href="contacts.php">Contacts</a></li>
-                    <li><a href="projects.php">Projects</a></li>
-                    <li><a href="project.php">Project detail</a></li>
-                    <li><a href="social_board.php">Social board</a></li>
-                    <li><a href="timeline.php">Timeline</a></li>
-                    <li><a href="profile.php">Profile</a></li>
-                    <li><a href="mailbox.php">Mailbox</a></li>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="blog_details.php">Blog article</a></li>
-                    <li><a href="forum.php">Forum</a></li>
-                    <li><a href="forum_details.php">Forum details</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="calendar.php">Calendar</a></li>
-                    <li><a href="invoice.php">Invoice</a></li>
-                    <li><a href="file_manager.php">File manager</a></li>
-                    <li><a href="chat_view.php">Chat view</a></li>
-                    <li><a href="search.php">Search view</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#"><span class="nav-label">Charts</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li><a href="chartjs.php">ChartJs</a></li>
-                    <li><a href="flot.php">Flot charts</a></li>
-                    <li><a href="inline.php">Inline graphs</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#"><span class="nav-label">Box transitions</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li><a href="overview.php"><span class="label label-success pull-right">Start</span> Overview </a>  </li>
-                    <li><a href="transition_two.php">Columns from up</a></li>
-                    <li><a href="transition_one.php">Columns custom</a></li>
-                    <li><a href="transition_three.php">Panels zoom</a></li>
-                    <li><a href="transition_four.php">Rows from down</a></li>
-                    <li><a href="transition_five.php">Rows from right</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#"><span class="nav-label">Common views</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="register.php">Register</a></li>
-                    <li><a href="error_one.php">Error 404</a></li>
-                    <li><a href="error_two.php">Error 505</a></li>
-                    <li><a href="lock.php">Lock screen</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#"><span class="nav-label">Tables</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li><a href="tables_design.php">Tables design</a></li>
-                    <li><a href="datatables.php">Data tables</a></li>
-                    <li><a href="footable.php">Foo Table</a></li>
-
-                </ul>
-            </li>
-            <li>
-                <a href="widgets.php"> <span class="nav-label">Widgets</span> <span class="label label-success pull-right">Special</span></a>
-            </li>
-            <li>
-                <a href="#"><span class="nav-label">Forms</span><span class="fa arrow"></span> </a>
-                <ul class="nav nav-second-level">
-                    <li><a href="forms_elements.php">Forms elements</a></li>
-                    <li><a href="forms_extended.php">Forms extended</a></li>
-                    <li><a href="text_editor.php">Text editor</a></li>
-                    <li><a href="wizard.php">Wizard</a></li>
-                    <li><a href="validation.php">Validation</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="options.php"> <span class="nav-label">Layout options</span></a>
-            </li>
-            <li>
-                <a href="grid_system.php"> <span class="nav-label">Grid system</span></a>
-            </li>
-            <li>
-                <a href="landing_page.php"> <span class="nav-label">Landing page</span></a>
-            </li>
-            <li>
-                <a href="angular/index.php"> <span class="nav-label">AngularJS version</span></a>
-            </li>
-            <li>
-                <a href="http://104.236.248.183/dashboard"> <span class="nav-label">Meteor version</span></a>
-            </li>
-        </ul>
-    </div>
-</aside>
+        </aside>
 
 <!-- Main Wrapper -->
 <div id="wrapper">
@@ -792,9 +795,9 @@
     <!-- Footer-->
     <footer class="footer">
         <span class="pull-right">
-            Example text
+            All Rights Reserved
         </span>
-        Company 2015-2020
+       A Biyers Tech Company 2015
     </footer>
 
 </div>

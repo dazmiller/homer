@@ -117,12 +117,7 @@
                                                     <h5>Analytics</h5>
                                                 </a>
                                             </td>
-                                            <td>
-                                                <a href="file_manager.php">
-                                                    <i class="pe pe-7s-box1 text-success"></i>
-                                                    <h5>Help</h5>
-                                                </a>
-                                            </td>
+
                                         </tr>
                                     </tbody>
                                 </table>
@@ -209,6 +204,9 @@
                     </li>
                            <li>
                         <a href="profile.php"> <span class="nav-label">Your Profile</span></a>
+                    </li>
+                    <li>
+                        <a href="deals.php"> <span class="nav-label">Offer Browser</span></a>
                     </li>
                     <li>
                         <a href="analytics.php"> <span class="nav-label">Analytics</span><span class="label label-warning pull-right">NEW</span> </a>
@@ -331,7 +329,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center m-t-md">
                     <h2>
-                    Welcome to your NoHassl.com Control Centre
+                    NoHassl.com Financial Control Centre
                     </h2>
                     <p>
                         Here you can create, manage and modify all your service requests and current quotes. <br>You can also manage your profile information and privacy settings. <BR><strong>Time to take back your life</strong>
@@ -347,14 +345,15 @@
                         <div class="ui-item clearfix">
                             <!-- Nav tabs -->
                             <ul class="clearfix bg-green">
-                                <!-- Users -->
+
                                 <li class="active"><a href="#insurance" data-toggle="tab">Insurance</a></li>
-                                <!-- Android -->
-                                <li><a href="#Financial" data-toggle="tab">Financial</a></li>
-                                <!-- Apple -->
-                                <li><a href="#Travel" data-toggle="tab">Travel</a></li>
-                                <!-- Dribbble -->
-                                <li><a href="#Services" data-toggle="tab">Services</a></li>
+
+
+
+                                <li><a href="#Banking" data-toggle="tab">Banking</a></li>
+
+                                <li><a href="#Services" data-toggle="tab">Superannuation</a></li>
+                                <li><a href="#Investing" data-toggle="tab">Investing</a></li>
                             </ul>
                             <!-- Tab panes -->
                             <div class="tab-content">
@@ -369,7 +368,6 @@
                                                 <!-- UI item -->
                                                 <div class="ui-item tooltip-demo" style="te">
                                                     <!-- Image -->
-
                                                     <a href="#" data-toggle="modal" onclick="window.activeDLG='#myModalg';"  data-target="#myModalg"  data-backdrop="static" title="" data-original-title="Create a request for life insurance quotes."><i class="fa fa-child" ></i></a>
                                                     <!-- Heading -->
                                                     <h6><a href="#">Life</a></h6>
@@ -379,8 +377,6 @@
                                                 <!-- UI iteme -->
                                                 <div class="ui-item">
                                                     <!-- Image -->
-
-
                                                     <a href="#" onclick="window.activeDLG='#health_insurance_dlg';" data-toggle="modal" data-target="#health_insurance_dlg"  data-backdrop="static" title="" data-original-title="Create a request for insurance quotes."><i class="fa fa-heart"></i></a>
                                                     <!-- Heading -->
                                                     <h6><a href="#">Heath</a></h6>
@@ -439,30 +435,205 @@
                                                     <h6><a href="#">Pet</a></h6>
                                                 </div>
                                             </div>
+                                                                                          <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#pet_insurance_dlg';" data-toggle="modal" data-target="#pet_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-newspaper-o"></i></a>
+                                                    <h6><a href="#">Latest News</a></h6>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <!-- Tab Panel -->
-                                <div class="tab-pane fade" id="Financial">
-                                    <!-- Heading -->
-                                    <h3><a href="#"><i class="fa fa-bookmark green"></i> Velit Esse</a></h3>
-                                    <!-- Paragraph -->
-                                    <p>Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi laboris nisi  ut aliquip Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi laboris nisi .</p>
-                                </div>
-                                <!-- Tab Panel -->
-                                <div class="tab-pane fade" id="Travel">
-                                    <!-- Heading -->
-                                    <h3><a href="#"><i class="fa fa-bullhorn green"></i> Esse Cillum</a></h3>
-                                    <!-- Paragraph -->
-                                    <p>Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi laboris nisi  ut aliquip Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi laboris nisi .</p>
-                                </div>
+                                <div class="tab-pane fade" id="Banking">
+                                   <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI item -->
+                                                <div class="ui-item tooltip-demo" style="te">
+                                                    <!-- Image -->
+                                                    <a href="#" data-toggle="modal" onclick="window.activeDLG='#myModalg';"  data-target="#myModalg"  data-backdrop="static" title="" data-original-title="Create a request for life insurance quotes."><i class="fa fa-credit-card" ></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Credit Cards</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI iteme -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#health_insurance_dlg';" data-toggle="modal" data-target="#health_insurance_dlg"  data-backdrop="static" title="" data-original-title="Create a request for insurance quotes."><i class="fa fa-bank"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Bank Accounts</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#home_insurance_dlg';" data-toggle="modal" data-target="#home_insurance_dlg"  data-backdrop="static" title="" ><i class="fa fa-home"></i></a>
+                                                    <h6><a href="#">Mortgages</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#"  onclick="window.activeDLG='#vehicle_insurance_dlg';" data-toggle="modal" data-target="#vehicle_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-dollar"></i></a>
+                                                    <h6><a href="#">Refinancing</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#funeral_insurance_dlg';" data-toggle="modal" data-target="#funeral_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-car"></i></a>
+                                                    <h6><a href="#">Car Loans</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI Item -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#income_insurance_dlg';" data-toggle="modal" data-target="#income_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-ship"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Boat Loans</a></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI item -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#travel_insurance_dlg';" data-toggle="modal" data-target="#travel_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-child"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Personal Loans</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI item -->
+                                                <div class="ui-item">
+                                                    <!--Image -->
+                                                    <a href="#" onclick="window.activeDLG='#landlord_insurance_dlg';" data-toggle="modal" data-target="#landlord_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-calendar"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Term Deposits</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#pet_insurance_dlg';" data-toggle="modal" data-target="#pet_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-balance-scale"></i></a>
+                                                    <h6><a href="#">Balance Transfers</a></h6>
+                                                </div>
+                                            </div>
+                                              <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#pet_insurance_dlg';" data-toggle="modal" data-target="#pet_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-newspaper-o"></i></a>
+                                                    <h6><a href="#">Latest News</a></h6>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                 </div>
                                 <!-- Tab Panel -->
                                 <div class="tab-pane fade" id="Services">
-                                    <!-- Heading -->
-                                    <h3><a href="#"><i class="fa fa-bell green"></i> Cillum Dolore</a></h3>
-                                    <!-- Paragraph -->
-                                    <p>Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi laboris nisi  ut aliquip Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi laboris nisi .</p>
-                                </div>
+                                       <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI item -->
+                                                <div class="ui-item tooltip-demo" style="te">
+                                                    <!-- Image -->
+                                                    <a href="#" data-toggle="modal" onclick="window.activeDLG='#myModalg';"  data-target="#myModalg"  data-backdrop="static" title="" data-original-title="Create a request for life insurance quotes."><i class="fa fa-child" ></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Funds</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI iteme -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#health_insurance_dlg';" data-toggle="modal" data-target="#health_insurance_dlg"  data-backdrop="static" title="" data-original-title="Create a request for insurance quotes."><i class="fa fa-heart"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">SMSF</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#home_insurance_dlg';" data-toggle="modal" data-target="#home_insurance_dlg"  data-backdrop="static" title="" ><i class="fa fa-home"></i></a>
+                                                    <h6><a href="#">Account Based Pensions</a></h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI Item -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#income_insurance_dlg';" data-toggle="modal" data-target="#income_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-newspaper-o"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Latest News</a></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                                   <div class="tab-pane fade" id="Investing">
+                                       <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI item -->
+                                                <div class="ui-item tooltip-demo" style="te">
+                                                    <!-- Image -->
+                                                    <a href="#" data-toggle="modal" onclick="window.activeDLG='#myModalg';"  data-target="#myModalg"  data-backdrop="static" title="" data-original-title="Create a request for life insurance quotes."><i class="fa fa-child" ></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Online Share Trading</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI iteme -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#health_insurance_dlg';" data-toggle="modal" data-target="#health_insurance_dlg"  data-backdrop="static" title="" data-original-title="Create a request for insurance quotes."><i class="fa fa-heart"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Managed Funds</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#home_insurance_dlg';" data-toggle="modal" data-target="#home_insurance_dlg"  data-backdrop="static" title="" ><i class="fa fa-home"></i></a>
+                                                    <h6><a href="#">Peer 2 Peer Lending</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#"  onclick="window.activeDLG='#vehicle_insurance_dlg';" data-toggle="modal" data-target="#vehicle_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-car"></i></a>
+                                                    <h6><a href="#">ETF's</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <div class="ui-item">
+                                                    <a href="#" onclick="window.activeDLG='#funeral_insurance_dlg';" data-toggle="modal" data-target="#funeral_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-child"></i></a>
+                                                    <h6><a href="#">Financial Advisers</a></h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI Item -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#income_insurance_dlg';" data-toggle="modal" data-target="#income_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-dollar"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Term Deposits</a></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-2 col-xs-4 ui-padd">
+                                                <!-- UI item -->
+                                                <div class="ui-item">
+                                                    <!-- Image -->
+                                                    <a href="#" onclick="window.activeDLG='#travel_insurance_dlg';" data-toggle="modal" data-target="#travel_insurance_dlg"  data-backdrop="static" title=""><i class="fa fa-newspaper-o"></i></a>
+                                                    <!-- Heading -->
+                                                    <h6><a href="#">Latest News</a></h6>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                   </div>
                             </div>
                         </div>
                     </div>
@@ -3211,10 +3382,7 @@ ga('send', 'pageview');
 <script src="scripts/nohassl.js"></script>
 
 <style>
-    body.modal-open {
-        padding-right: 0 !important;
 
-    }
 </style>
 
 </body>

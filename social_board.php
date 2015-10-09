@@ -117,12 +117,7 @@
                                         <h5>Analytics</h5>
                                     </a>
                                 </td>
-                                <td>
-                                    <a href="file_manager.php">
-                                        <i class="pe pe-7s-box1 text-success"></i>
-                                        <h5>Files</h5>
-                                    </a>
-                                </td>
+
                             </tr>
                             </tbody>
                         </table>
@@ -922,9 +917,9 @@
     <!-- Footer-->
     <footer class="footer">
         <span class="pull-right">
-            Example text
+            All Rights Reserved
         </span>
-        Company 2015-2020
+       A Biyers Tech Company 2015
     </footer>
 
 </div>
