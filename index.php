@@ -21,6 +21,7 @@
       <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/helper.css" />
       <link rel="stylesheet" href="styles/style.css">
       <link rel="stylesheet" href="styles/nohassl.css">
+      <link rel="stylesheet" href="styles/bootstrap-nav-wizard.css">
       <style>
          /* Open Sans  */
          @import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600');
@@ -105,7 +106,7 @@
                                     </a>
                                  </td>
                                  <td>
-                                    <a href="contacts.php">
+                                    <a href="myprofile.php">
                                        <i class="pe pe-7s-users text-success"></i>
                                        <h5>Profile</h5>
                                     </a>
@@ -1921,10 +1922,20 @@
                <div class="modal-body">
                   <form name="simpleForm" novalidate id="simpleForm" action="#" method="post">
                      <div class="text-center m-b-md" id="wizardControl">
-                        <a class="btn btn-primary" href="#step1life" data-toggle="lifetab" id="lifestep1">Step 1 - Personal data</a>
+
+<ul class="nav nav-wizard">
+    <li class="active"><a href="#step1life"   href="#step1life" data-toggle="lifetab" id="lifestep1">Step 1 - Personal data</a></li>
+    <li><a href="#step2life" href="#step2life" data-toggle="lifetab" id="lifestep2">Step 2 - Insurance Questions</a></li>
+    <li><a href="#step3life" data-toggle="lifetab" id="lifestep3">Step 3 - Insurers Selection</a></li>
+    <li><a href="#step4life" data-toggle="lifetab" id="lifestep4">Step 4 - Approval</a></li>
+  </ul>
+
+
+
+                       <!-- <a class="btn btn-primary" href="#step1life" data-toggle="lifetab" id="lifestep1">Step 1 - Personal data</a>
                         <a class="btn btn-default" href="#step2life" data-toggle="lifetab" id="lifestep2">Step 2 - Insurance Questions</a>
-                         <a class="btn btn-default" href="#step3life" data-toggle="lifetab" id="lifestep3">Step 2 - Insurers Selection</a>
-                        <a class="btn btn-default" href="#step4life" data-toggle="lifetab" id="lifestep4">Step 3 - Approval</a>
+                         <a class="btn btn-default" href="#step3life" data-toggle="lifetab" id="lifestep3">Step 3 - Insurers Selection</a>
+                        <a class="btn btn-default" href="#step4life" data-toggle="lifetab" id="lifestep4">Step 4 - Approval</a> -->
                      </div>
                      <div class="tab-content">
                         <div id="step1life" class="p-m tab-pane active">
@@ -2047,6 +2058,10 @@
     <div class="gallery-item">
       <img src="images/lifeinsure/zurich-small.jpg">
     </div>
+
+
+
+
 
   </div>
 </div>
