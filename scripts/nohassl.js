@@ -24,6 +24,10 @@
                  $('[href=#step3life]').tab('show');
             });
 
+             $('#lifenext3').click(function() {
+                 $('[href=#step4life]').tab('show');
+            });
+
             $('#lifeprev2').click(function() {
                 $('[href=#step1life]').tab('show');
             });
@@ -31,6 +35,11 @@
             $('#lifeprev3').click(function() {
                 $('[href=#step2life]').tab('show');
             });
+
+
+            $('#lifeprev4').click(function() {
+                $('[href=#step3life]').tab('show');
+            });        
 
 
             $('#lifestep1').click(function() {
@@ -43,6 +52,11 @@
 
             $('#lifestep3').click(function() {
                 $('[href=#step3life]').tab('show');
+            });
+
+
+            $('#lifestep4').click(function() {
+                $('[href=#step4life]').tab('show');
             });
 
 
